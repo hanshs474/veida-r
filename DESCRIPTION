@@ -1,0 +1,15 @@
+Package: veida
+Type: Package
+Title: Generate AI Images with No API Key
+Version: 0.1.0
+Authors@R: person("Veida", role = c("aut", "cre"), email = "support@veida.ai")
+Description: A small client for the Veida AI image generator <https://veida.ai>.
+    It uses the anonymous free tier, so the first call works on a machine with
+    nothing configured: 1K output, watermarked, about seven images a day per
+    machine.
+License: MIT + file LICENSE
+URL: https://veida.ai, https://github.com/hanshs474/veida-r
+BugReports: https://github.com/hanshs474/veida-r/issues
+Imports: curl, jsonlite
+Encoding: UTF-8
+RoxygenNote: 7.3.2

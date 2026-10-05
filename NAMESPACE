@@ -1,0 +1,3 @@
+export(veida_generate)
+importFrom(curl, new_handle, handle_setheaders, handle_setopt, curl_fetch_memory, curl_escape)
+importFrom(jsonlite, toJSON, fromJSON)
